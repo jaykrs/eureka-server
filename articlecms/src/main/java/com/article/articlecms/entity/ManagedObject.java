@@ -4,6 +4,10 @@ import java.util.Date;
 
 import lombok.Data;
 
+/**
+ * @author jayant
+ *
+ */
 @Data
 public abstract class ManagedObject {
 
