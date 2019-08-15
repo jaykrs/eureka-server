@@ -8,4 +8,5 @@ public interface IJcrAuthentication {
 
 	public boolean loginRepository(String userId, String pwd) throws LoginException, RepositoryException;
 	public boolean createRepository(SimpleCredentials simpleCredential ,String repositoryName);
+
 }
