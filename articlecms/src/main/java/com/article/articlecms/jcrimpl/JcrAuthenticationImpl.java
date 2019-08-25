@@ -34,12 +34,14 @@ public class JcrAuthenticationImpl implements IJcrAuthentication {
 		return false;
 	}
 
-	public static void main(String s[]) throws LoginException, RepositoryException {
-		System.out.println(new JcrAuthenticationImpl().loginRepository("", ""));
-		System.out.println("repository " + new JcrAuthenticationImpl()
-				.createRepository(new SimpleCredentials("admin", "admin".toCharArray()), "products"));
-	}
-
+	/*
+	 * public static void main(String s[]) throws LoginException,
+	 * RepositoryException { System.out.println(new
+	 * JcrAuthenticationImpl().loginRepository("", ""));
+	 * System.out.println("repository " + new JcrAuthenticationImpl()
+	 * .createRepository(new SimpleCredentials("admin", "admin".toCharArray()),
+	 * "products")); }
+	 */
 	@Override
 	public boolean createRepository(SimpleCredentials simpleCredential, String repositoryName) {
 		// TODO Auto-generated method stub
